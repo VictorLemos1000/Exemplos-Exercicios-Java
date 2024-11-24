@@ -15,6 +15,8 @@ public class ValorMenorQueZero {
 		if (numero < 0) {
 			numero *= -1;
 			System.out.printf("%n Número foi multiplicado: %d", numero);
+			
 		}
 	}
 }
+			

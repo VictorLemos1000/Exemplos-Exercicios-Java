@@ -38,17 +38,12 @@ public class PropriedadeDistributiva_TrocarValores {
 			System.out.printf("%n Ordem crescente da troca de valores: %d, %d e %d", a, b, c);
 		} else {
 			System.out.println("\n Alternativas não correspondentes se todosos valores foram iguais.");
+			
+			int contador = -1;
+			
+			while ( !(contador >= 5) ) {
+				System.out.printf(" %d", ++contador);
+			}
 		}
-		
-		int x = 0;
-
-	        // Executa o loop até que x seja maior ou igual a 5
-	        do {
-	        	++x;
-	            System.out.println("\n O valor de X é: " + x);
-	        } while (x <= 5);
-
-	        System.out.println("Loop terminado. Valor final de X: " + x);
-	        
 	}
 }
